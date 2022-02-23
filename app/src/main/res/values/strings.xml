@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CalculadoraMaterias</string>
+    <string name="Prob">PROBABILIDAD Y ESTADISTICA</string>
+    <string name="Fis">FISICA IV</string>
+    <string name="Quim">QUIMICA IV</string>
+    <string name="Ingl">INGLES VI</string>
+    <string name="Orien">ORIENTACION JUVENIL Y PROFESIONAL IV</string>
+    <string name="Met">METODOS AGILES DE PROGRAMACION</string>
+    <string name="Sop">SOPORTE DE SOFTWARE</string>
+    <string name="Ing">INGENIERIA DE SOFTWARE BASICA</string>
+    <string name="Lab">LAB. DE PROYECTOS DE TECNOLOGIAS DE LA INFORMACION IV</string>
+    <string name="PI">PROYECTO INTEGRADOR</string>
+    <string name="P1">Primer parcial</string>
+    <string name="P2">Segundo parcial</string>
+    <string name="P3">Tercer parcial</string>
+    <string name="btn_enviar">ENVIAR</string>
+    <string name="btn_regresar">REGRESAR</string>
+    <string name="Alta">Materia mas alta</string>
+    <string name="Baja">Materia mas baja</string>
+    <string name="Extra">Extras</string>
+    <string name="Media">Media</string>
+</resources>
