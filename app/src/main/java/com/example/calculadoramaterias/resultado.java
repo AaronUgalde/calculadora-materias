@@ -32,6 +32,18 @@ public class resultado extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resultado);
 
+        PriAlta = (TextView)findViewById(R.id.PriAlta);
+        PriBaja = (TextView)findViewById(R.id.PriBaja);
+        PriMed = (TextView)findViewById(R.id.PriMed);
+        SegAlta = (TextView)findViewById(R.id.SegAlta);
+        SegBaja = (TextView)findViewById(R.id.SegBaja);
+        SegMed = (TextView)findViewById(R.id.SegMed);
+        TerAlta = (TextView)findViewById(R.id.TerAlta);
+        TerBaja = (TextView)findViewById(R.id.TerBaja);
+        TerMed = (TextView)findViewById(R.id.TerMed);
+        Med = (TextView)findViewById(R.id.Med);
+        Extras = (TextView)findViewById(R.id.Extras);
+
         int fisI = Integer.parseInt(getIntent().getStringExtra("fisI"));
         int ingI = Integer.parseInt(getIntent().getStringExtra("ingI"));
         int inglI = Integer.parseInt(getIntent().getStringExtra("inglI"));
@@ -67,9 +79,16 @@ public class resultado extends AppCompatActivity {
 
         //medias
         float mediaP1 = (fisI+ingI+inglI+labI+metI+oriI+probI+piI+quiI+sopI)/10;
+        PriMed.setText(Float.toString(mediaP1));
+
         float mediaP2 = (fisII+ingII+inglII+labII+metII+oriII+probII+piII+quiII+sopII)/10;
+        SegMed.setText(Float.toString(mediaP2));
+
         float mediaP3 = (fisIII+ingIII+inglIII+labIII+metIII+oriIII+probIII+piIII+quiIII+sopIII)/10;
+        TerMed.setText(Float.toString(mediaP3));
+
         float media = (mediaP1+mediaP2+mediaP3)/3;
+        Med.setText(Float.toString(media));
 
     }
 }
