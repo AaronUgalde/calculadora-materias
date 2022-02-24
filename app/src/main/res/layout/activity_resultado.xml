@@ -61,21 +61,25 @@
 
         <TextView
             android:id="@+id/PriAlta"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_column="1"
+            android:height="80sp"
             android:paddingLeft="10sp"
             android:paddingTop="25sp"
-            android:paddingBottom="25sp" />
+            android:paddingBottom="25sp"
+            android:textSize="8sp" />
 
         <TextView
             android:id="@+id/PriBaja"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_column="2"
+            android:height="80sp"
             android:paddingLeft="10sp"
             android:paddingTop="25sp"
-            android:paddingBottom="25sp" />
+            android:paddingBottom="25sp"
+            android:textSize="8sp" />
 
         <TextView
             android:id="@+id/PriMed"
@@ -102,21 +106,25 @@
 
         <TextView
             android:id="@+id/SegAlta"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_column="1"
+            android:height="80sp"
             android:paddingLeft="10sp"
             android:paddingTop="25sp"
-            android:paddingBottom="25sp" />
+            android:paddingBottom="25sp"
+            android:textSize="8sp" />
 
         <TextView
             android:id="@+id/SegBaja"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_column="2"
+            android:height="80sp"
             android:paddingLeft="10sp"
             android:paddingTop="25sp"
-            android:paddingBottom="25sp" />
+            android:paddingBottom="25sp"
+            android:textSize="8sp" />
 
         <TextView
             android:id="@+id/SegMed"
@@ -143,21 +151,25 @@
 
         <TextView
             android:id="@+id/TerAlta"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_column="1"
+            android:height="80sp"
             android:paddingLeft="10sp"
             android:paddingTop="25sp"
-            android:paddingBottom="25sp" />
+            android:paddingBottom="25sp"
+            android:textSize="8sp" />
 
         <TextView
             android:id="@+id/TerBaja"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_column="2"
+            android:height="80sp"
             android:paddingLeft="10sp"
             android:paddingTop="25sp"
-            android:paddingBottom="25sp" />
+            android:paddingBottom="25sp"
+            android:textSize="8sp" />
 
         <TextView
             android:id="@+id/TerMed"
